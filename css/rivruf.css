@@ -1,0 +1,159 @@
+body {
+  font-family:Verdana;color:#aaaaaa;
+  background-color:#111111;
+  margin: 0;
+   
+}
+
+html,body {
+ padding: 1em 2em;
+}
+
+
+.header {
+    background-color: #111111;
+    font-family: monoton;    
+    color: #5B6073;
+    padding: .3em;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+
+/* make this collapsed ft */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* make this collapsed ft */
+.nav {
+    overflow: hidden;
+    background-color: #17253d;
+}
+
+
+/* hide the that should open and close the nav on small screens */
+.nav .icon {
+    display: none;
+}
+/* nav links */
+.nav a {
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+}
+
+/* hover color */
+.nav a:hover {
+    background-color:#333;
+    color: black;
+}
+    
+h7 {
+     text-align: center;
+     font-size: 1.5em;
+     color: #007bff;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin: 20px;
+ }   
+    
+/* Main Page */
+.responsive {
+    border-color: black;
+    background-color: black;
+    text-decoration: none;
+}
+    
+    
+/* Music page */  
+.card{
+    height: 40rem;
+    background-color: #3c3c3c;
+    /*width: 18rem;*/
+}
+.card-text {
+    color: #5B6073;
+}
+
+
+
+/* Shows page */ 
+.container-fluid {
+  display: flex;
+  justify-content: center;
+   
+}
+
+#musicRow {
+    border: 1px solid #ddd;
+    padding: .5em;
+    text-align:center;
+    margin-bottom:10px;
+    border:solid;
+}
+
+.even {
+    background-color: #3c3c3c;
+}
+
+
+
+/* Venue (dog pic) Page */
+
+
+/* js piece */
+
+
+.js {margin: 3%;
+    font-size: 2.5em;
+    text-align:center;
+    color: #888;
+     font-weight: 200;
+     margin: 0.4em 0;
+}
+
+
+.dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+
+/* Media queries  */
+
+/*  less than 600 pixels, all links hide except for home */
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The responsive class added w/ JS */
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
