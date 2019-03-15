@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  font-family:Verdana;color:#aaaaaa;
+  background-color:#111111;
+}
+
+/*  header */
+
+.top {
+    font-family: monoton;    
+    padding: 1em;
+    background-color: #17253d;
+    color: #2840f6;
+    text-align: center;
+    font-size: 35px;
+}
+.navbar {
+     font-family:Roboto;color:#fff;
+     font-size: 20px;
+}
+/*
+h1 {
+    font-weight: 200;
+    margin: 0.4 em 0;
+}
+*/
+
+h1 
+
+{ color: #ffffff; 
+  font-family: 'lobster',sans-serif; 
+  font-size: 40px; 
+  font-weight: 800; 
+  line-height: 72px; 
+  margin: .5em; 
+  text-align: center; 
+  
+   }
+
+/*
+{
+     text-align: center;
+     font-size: 1.5em;
+     color: #FFFFFF;
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+     margin: 20px;
+ } 
+    */
+    /* Main Page */
+
+
+h5 { 
+  color: #ffffff; 
+  font-family: 'Roboto',sans-serif; 
+  font-size: 20px; 
+  text-align: center; 
+  padding-top: 1em }
+
+
+.responsive {
+    border-color: #191919;
+    background-color: #000000;
+    text-decoration: none;
+}
+    
+    
+/* Music page */  
+.card{
+    /*height: 40rem;*/
+    background-color: #3c3c3c;
+}
+
+.card-text {
+    color: #5B6073;
+}
+
+
+/* Shows page */ 
+.container-fluid {
+  display: flex;
+  justify-content: center;
+   
+}
+
+#musicRow {
+    border: 1px solid #ddd;
+    padding: .5em;
+    text-align:center;
+    margin-bottom:10px;
+    border:solid;
+}
+
+.even {
+    background-color: #3c3c3c;
+}
+
+/* Venue (dog pic) Page */
+
+.header a{
+      font-size:32px;
+  }
+  
+
+.js {
+    font-size: 2.5em;
+    text-align:center;
+    color: #888;
+     font-weight: 200;
+     margin: 0.4em 0;
+}
+
+
+.dog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 20px; ;
+    border: .5px solid #3c3c3c;
+    
+}
+
+
+/* Media queries  
+
+ less than 600 pixels, all links hide except for home */
+@media only screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The responsive class added w/ JS */
+
+@media only screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive a.icon .header {
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+  }
+ 
+ /*
+min width from that pixel size and above.
+@media screen and (min-width: 400px)
+max width is adjusting down to smaller screen. developed it for larger screen.
+ */
